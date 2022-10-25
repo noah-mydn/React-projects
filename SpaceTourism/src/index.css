@@ -1,0 +1,27 @@
+:root {
+    --heading-font :'Bellefair';
+    --heading-one-fs:150px;
+    --heading-two-fs:100px;
+    --heading-three-fs:56px;
+    --heading-four-fs:32px;
+
+    --smallText-font: 'Barlow Condensed';
+    --heading-five-fs:28px;
+    --letter-spacing-header:4.75px;
+    --subHeading-one-fs:28px;
+    --subHeading-two-fs:14px;
+    --letter-spacing-subHeading:2.35px;
+    --letter-spacing-navText:2.7px;
+    --navText-fs:16px;
+
+    --primary-color:rgba(11, 13, 23, 1);
+    --secondary-color: rgba(208, 214, 249, 1);
+    --text-color:rgba(255, 255, 255, 1);
+
+
+
+}
+
+#root {
+    position: relative;
+}

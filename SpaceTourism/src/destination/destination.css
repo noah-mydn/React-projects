@@ -1,0 +1,286 @@
+.destination {
+    height: 100vh;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    background: url('./desktopBg.jpg');
+    background-size: cover;
+    display: grid;
+    padding-top: 10em;
+    grid-template-areas: "image_title info"
+                         "planet_details planet_details";
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.destination_image  {
+    grid-area: image_title;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destination_info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    
+}
+.destination_title {
+    font-family: var(--smallText-font);
+    font-size: var(--heading-five-fs);
+    letter-spacing: var(--letter-spacing-header);
+    color: var(--text-color);
+}
+
+.destination_title span {
+    opacity: 0.25;
+}
+
+.small-nav {
+    display: flex;
+}
+
+.small-nav span {
+    position: relative;
+    padding: 0.5em 0.2em;
+    margin:0;
+}
+
+.small-nav-link {
+    text-decoration: none;
+    padding:0 1.2em;
+    color:var(--text-color);
+    font-family: var(--smallText-font);
+    letter-spacing: var(--letter-spacing-navText);
+}
+
+.small-nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.small-nav-link::after {
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: 2px;
+    width: 0;
+    margin: 0;
+    left: 20px;
+    background-color: var(--text-color);
+}
+
+.small-nav-link:hover:after {
+    background-color: var(--secondary-color);
+    width: 58%;
+}
+
+.small-nav-link:active:after {
+    width: 58%;
+}
+
+.planet_details {
+    display: grid;
+    grid-area: planet_details;
+    grid-template-areas: "planet_image   planet_info";
+    grid-template-columns: 1fr 1fr;
+}
+
+.planet_image {
+    grid-area: planet_image;
+    width: 45%;
+    margin-top: -1em;
+    margin-left: 13em;
+}
+
+.planet_description {
+    grid-area: planet_info;
+    width: 58%;
+    padding-left: 1em;
+}
+
+.planet_description h1 {
+    font-family: var(--heading-font);
+    font-size: var(--heading-two-fs);
+    color: var(--text-color);
+    text-align: left;
+}
+
+.planet_description p {
+    color: var(--secondary-color);
+    font-size: var(--subHeading-two-fs);
+   
+}
+
+.planet_description hr {
+    background-color: var(--secondary-color);
+    height: 2px;
+    margin-top: 2em;
+}
+
+.more_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.distance p, .estimated_time p {
+    font-family: var(--smallText-font);
+    font-size: var(--navText-fs);
+    letter-spacing: var(--letter-spacing-navText);
+}
+
+.distance h5, .estimated_time h5 {
+    font-family: var(--heading-font);
+    font-size: var(--subHeading-one-fs);
+    text-transform: uppercase;
+    line-height: 0.3em;
+    color: var(--text-color);
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .planet_image {
+        width: 50%;
+        margin-left: 7em;
+        margin-top: 0.5em;
+    }
+    .planet_description {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .planet_image {
+        width: 60%;
+        margin-top: 0.5em;
+        margin-left: 5em;
+    }
+
+    .destination_title {
+        font-size: larger;
+    }
+
+    .planet_description{
+        width: 85%;
+    }
+
+    .planet_description h1 {
+        font-size: 5em;
+    }
+
+    .distance h5, .estimated_time h5 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .destination {
+        grid-template-areas: "image_title image_title"
+                             "info info"
+                             "planet_details planet_details";
+        padding-top: 5.5em;
+        height: auto;
+    }
+
+    .destination_info {
+        justify-self: center;
+        position: absolute;
+        top:14em;
+    }
+
+    .destination_image {
+        align-items: flex-start;
+    }
+
+    .destination_title {
+        font-size: 1.2em;
+    }
+
+    .planet_image {
+        width: 35%;
+        margin-top: 1em;
+    }
+
+    .planet_details {
+        grid-template-areas: "planet_image planet_image"   
+                             "planet_info planet_info";
+    }
+    
+    .planet_description {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        padding-top: 5.5em;
+        padding-left: 3.5em;
+    }
+
+    .planet_description h1 {
+        text-align: center;
+        font-size: var(--heading-three-fs);
+        padding-top: 0.5em;
+    }
+
+    .planet_description p {
+        text-align: center;
+    }
+
+    .distance h5, .estimated_time h5 {
+        font-size: 1.5em;
+        padding-bottom: 0.3em;
+    }
+
+    
+}
+
+@media only screen and (max-width:576px) {
+
+    .destination {
+        height: auto;
+    }
+    .planet_image {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1.5em;
+    }
+
+    .destination_info {
+        justify-self: center;
+        top:16em;
+    }
+
+    .planet_description {
+        padding-top: 1em;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        padding:0 3em;
+    }
+
+    .planet_description h1 {
+        text-align: center;
+        padding-top: 1em;
+        font-size: 6.5em;
+    }
+
+    .planet_description hr {
+        background-color: white;
+        height: 2px;
+        width: 100%;
+    }
+
+    .more_details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .distance, .estimated_time {
+        padding:1em 0;
+    }
+
+    .distance h5, .estimated_time h5 {
+       font-size: var(--heading-five-fs);
+      
+    }
+}
