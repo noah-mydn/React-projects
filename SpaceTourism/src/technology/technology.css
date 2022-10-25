@@ -1,0 +1,207 @@
+.technology {
+    background-image: url('./background-technology-desktop.jpg');
+    position: absolute;
+    top:0;
+    z-index: -1;
+    height: 100vh;
+}
+
+.technology_title {
+    font-family: var(--smallText-font);
+    font-size: var(--heading-five-fs);
+    color: var(--text-color);
+    letter-spacing: var( --letter-spacing-header);
+    padding: 5em 0 0 3em;
+}
+
+.technology_title span {
+    opacity: 0.25;
+}
+
+.terminology_container {
+   display: grid;
+   padding: 1em 0 0 5em;
+   justify-content: space-evenly;
+   grid-template-areas: "btns texts pic";
+   grid-template-columns: 100px 1fr 1fr;
+}
+
+.technology_btns {
+    grid-area: btns;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.rounded_btn {
+    background-color: transparent;
+    padding: 1em 1.5em;
+    border-radius: 50%;
+    border:1px solid rgba(255, 255, 255, 0.25);
+    margin:0.8em 0;
+    color: var(--text-color);
+}
+
+.rounded_btn:hover{
+    color: var(--text-color);
+    border-color: white;
+}
+
+.rounded_btn:active,.rounded_btn:focus {
+    color: var(--primary-color);
+    background-color: white;
+}
+.terminology {
+   grid-area: texts;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 0 0 0 7em;
+   justify-self: center;
+  
+}
+
+.terminology small {
+    color: var(--secondary-color);
+    font-size: var(--subHeading-two-fs);
+    font-family: var(--smallText-font);
+    letter-spacing: var(--letter-spacing-subHeading);
+    text-transform: uppercase;
+    
+}
+
+.terminology h5 {
+    line-height: 1.7em;
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: var( --heading-four-fs);
+    letter-spacing: var(--letter-spacing-navText);
+}
+
+.terminology p {
+    color:var(--secondary-color);
+    font-family: var(--smallText-font);
+    width: 80%;
+    font-size: 18px;
+
+}
+
+.image_holder {
+    grid-area: pic;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+
+.terminology_img {
+    width: 70%;
+}
+
+@media (min-width: 992px) and (max-width:1200px) { 
+    .terminology { 
+        padding: 0 0 0 4em;
+     }
+
+     .technology p {
+        width: 85%;
+     }
+
+     .terminology_img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .terminology_container {
+        padding-left: 1em;
+        margin-top: 4em;
+    }
+
+    .technology_btns {
+        align-items: flex-start;
+    }
+
+    .terminology {
+        padding-left: 2em;
+    }
+
+    .terminology p {
+        width: 100%;
+    }
+
+    .terminology_img {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .technology {
+        height: auto;
+    }
+
+    .terminology_container {
+        display: grid;
+        grid-template-areas: "pic pic pic"
+                             "btns btns btns"
+                             "texts texts texts";
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+                            
+     }
+
+    .technology_title{
+        padding-left: 1em;
+        padding-bottom: 2em;
+    }
+
+     .image_holder {
+        justify-content: center;
+        background-color: green;
+        margin-top: 1.5em;
+    }
+
+    .terminology_img {
+        width: 100%;
+    }
+
+    .technology_btns {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rounded_btn {
+        margin:2em 0.8em;
+    }
+
+    .terminology {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 0 2em 0;
+    }
+
+    .terminology p {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .technology_title {
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 1em;
+    }
+
+    .rounded_btn {
+        padding: 0.8em 1.2em;
+    }
+
+    .terminology small {
+        font-size: 18px;
+    }
+}

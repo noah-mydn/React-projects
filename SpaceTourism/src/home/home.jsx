@@ -1,7 +1,11 @@
 import React from 'react'
 import './home.css';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 export default function Home() {
+
+  const explore= useNavigate();
+
   return (
     <>
       <div className='home container-fluid'>
@@ -15,7 +19,7 @@ export default function Home() {
           </div>
 
           <div className='explore-container'>
-            <button className='explore'>EXPLORE</button>
+            <button className='explore' onClick={()=> explore('/destination')}>EXPLORE</button>
           </div>
       </div>
     </>

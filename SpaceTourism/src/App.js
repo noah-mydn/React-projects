@@ -6,6 +6,7 @@ import Home from './home/home';
 import Destination from './destination/destination';
 import Crew from './crew/crew';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
+import Technology from './technology/technology';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/destination' element={<Destination/>}/>
         <Route path='/crew' element={<Crew/>}/>
+        <Route path='/technology' element={<Technology/>}/>
       </Routes>
       </BrowserRouter>
     
