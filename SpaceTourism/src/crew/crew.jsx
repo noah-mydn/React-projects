@@ -47,13 +47,13 @@ export default function Crew() {
                                     <p>{member.about}</p>
                                 </div>
                                 <div className='crew_image_container'>
-                                    {member.id===1 && <img src={Douglas} alt='Doughlas' 
+                                    {member.id===1 && <img src='./image-douglas-hurley.png' alt='Doughlas' 
                                     className='crew_image doughlas'/>}
-                                    {member.id===2 && <img src={Mark} alt='Mark' 
+                                    {member.id===2 && <img src='./image-mark-shuttleworth.png' alt='Mark' 
                                     className='crew_image mark_'/>}
-                                    {member.id===3 && <img src={Victor} alt='Victor' 
+                                    {member.id===3 && <img src='./image-victor-glover.png' alt='Victor' 
                                     className='crew_image victor'/>}
-                                    {member.id===4 && <img src={Anousheh} alt='Anousheh' 
+                                    {member.id===4 && <img src='./image-anousheh-ansari.png' alt='Anousheh' 
                                     className='crew_image anousheh'/>}
                                 </div>
                             </div>
