@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2fb1e4f1.css",
+    "main.js": "./static/js/main.7b81cf77.js",
+    "static/media/image-victor-glover.png": "./static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
+    "static/media/image-anousheh-ansari.png": "./static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
+    "static/media/image-mark-shuttleworth.png": "./static/media/image-mark-shuttleworth.fc30f35b05fc0bc4ee47.png",
+    "static/media/image-douglas-hurley.png": "./static/media/image-douglas-hurley.7540fbb61923064f065e.png",
+    "static/media/desktopBg.jpg": "./static/media/desktopBg.88a3c692fd34eb311e04.jpg",
+    "static/media/image-moon.png": "./static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/image-europa.png": "./static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
+    "static/media/tabletBg.jpg": "./static/media/tabletBg.bc9efcc3281fa6801077.jpg",
+    "static/media/image-mars.png": "./static/media/image-mars.1b224c8663251270d79f.png",
+    "static/media/image-spaceport-portrait.jpg": "./static/media/image-spaceport-portrait.85523db5de13057f36ea.jpg",
+    "static/media/image-spaceport-landscape.jpg": "./static/media/image-spaceport-landscape.0f3ca5c05a3e87191ea7.jpg",
+    "static/media/barlow-condensed-all-400-normal.woff": "./static/media/barlow-condensed-all-400-normal.52b3128bdfbfd6adaf4d.woff",
+    "static/media/image-titan.png": "./static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/background-technology-desktop.jpg": "./static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "static/media/bellefair-all-400-normal.woff": "./static/media/bellefair-all-400-normal.0489c88841b88564273e.woff",
+    "static/media/TabletBg.jpg": "./static/media/TabletBg.16d51cf61e98ce45eb61.jpg",
+    "static/media/image-space-capsule-portrait.jpg": "./static/media/image-space-capsule-portrait.dd0ac138afef98c1666a.jpg",
+    "static/media/image-space-capsule-landscape.jpg": "./static/media/image-space-capsule-landscape.d672da81d5ff3ada7301.jpg",
+    "static/media/barlow-condensed-latin-400-normal.woff2": "./static/media/barlow-condensed-latin-400-normal.bcf8c5473a52498074ac.woff2",
+    "static/media/image-launch-vehicle-portrait.jpg": "./static/media/image-launch-vehicle-portrait.0c758955a178bdcc3230.jpg",
+    "static/media/image-launch-vehicle-landscape.jpg": "./static/media/image-launch-vehicle-landscape.4281a59ff7186488fe6a.jpg",
+    "static/media/bellefair-latin-400-normal.woff2": "./static/media/bellefair-latin-400-normal.23e36515ba4483f111d1.woff2",
+    "static/media/barlow-condensed-latin-ext-400-normal.woff2": "./static/media/barlow-condensed-latin-ext-400-normal.3df88ab89b02cd1f75fa.woff2",
+    "static/media/bellefair-latin-ext-400-normal.woff2": "./static/media/bellefair-latin-ext-400-normal.ff008e506d8e0e4b25ba.woff2",
+    "static/media/bellefair-hebrew-400-normal.woff2": "./static/media/bellefair-hebrew-400-normal.23d43f0b3b0b54d1f870.woff2",
+    "static/media/barlow-condensed-vietnamese-400-normal.woff2": "./static/media/barlow-condensed-vietnamese-400-normal.e27355db09e5b1d00652.woff2",
+    "index.html": "./index.html",
+    "main.2fb1e4f1.css.map": "./static/css/main.2fb1e4f1.css.map",
+    "main.7b81cf77.js.map": "./static/js/main.7b81cf77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fb1e4f1.css",
+    "static/js/main.7b81cf77.js"
+  ]
+}
