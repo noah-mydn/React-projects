@@ -26,7 +26,7 @@ export default function Destination() {
             </div>
             
                 {planet==='moon' && <div className='planet_details' id='moon'>
-                        <img src={moon} alt="Planet Moon" className='planet_image'/>
+                        <img src={moon} alt="Planet Moon" className='planet_image' loading='lazy'/>
                         <div className='planet_description'>
                             <h1>{PLANETS[0].planet_name}</h1>
                             <p>{PLANETS[0].planet_description}</p>
@@ -46,7 +46,7 @@ export default function Destination() {
                     </div>}
 
                     {planet==='mars' && <div className='planet_details' id='mars'>
-                        <img src={mars} alt="Planet Mars" className='planet_image'/>
+                        <img src={mars} alt="Planet Mars" className='planet_image' loading='lazy'/>
                         <div className='planet_description'>
                             <h1>{PLANETS[1].planet_name}</h1>
                             <p>{PLANETS[1].planet_description}</p>
@@ -66,7 +66,7 @@ export default function Destination() {
                     </div>}
 
                     {planet==='europa' && <div className='planet_details' id='europa'>
-                        <img src={europa} alt="Planet Europa" className='planet_image'/>
+                        <img src={europa} alt="Planet Europa" className='planet_image' loading='lazy'/>
                         <div className='planet_description'>
                             <h1>{PLANETS[2].planet_name}</h1>
                             <p>{PLANETS[2].planet_description}</p>
@@ -86,7 +86,7 @@ export default function Destination() {
                     </div>}
 
                     {planet==='titan' && <div className='planet_details' id='titan'>
-                        <img src={titan} alt="Planet Titan" className='planet_image'/>
+                        <img src={titan} alt="Planet Titan" className='planet_image' loading='lazy'/>
                         <div className='planet_description'>
                             <h1>{PLANETS[3].planet_name}</h1>
                             <p>{PLANETS[3].planet_description}</p>

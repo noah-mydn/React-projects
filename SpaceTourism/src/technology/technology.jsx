@@ -38,7 +38,8 @@ export default function Technology() {
                     </div>
 
                     <div className='image_holder'>
-                        <img src={TabletScreen ? LaunchVehicle_L : LaunchVehicle_P} className='terminology_img' alt={TERMINOLOGY[0].title}/>
+                        <img src={TabletScreen ? LaunchVehicle_L : LaunchVehicle_P} loading='lazy'
+                        className='terminology_img' alt={TERMINOLOGY[0].title}/>
                     </div>
                 </>
             }
@@ -53,7 +54,8 @@ export default function Technology() {
                     </div>
 
                     <div className='image_holder'>
-                        <img src={TabletScreen ? SpacePort_L : SpacePort_P} className='terminology_img' alt={TERMINOLOGY[1].title}/>
+                        <img src={TabletScreen ? SpacePort_L : SpacePort_P} loading='lazy' 
+                        className='terminology_img' alt={TERMINOLOGY[1].title}/>
                     </div>
                 </>
             }
@@ -68,7 +70,8 @@ export default function Technology() {
                     </div>
 
                     <div className='image_holder'>
-                        <img src={TabletScreen ? SpaceCapsule_L : SpaceCapsule_P} className='terminology_img' alt={TERMINOLOGY[2].title}/>
+                        <img src={TabletScreen ? SpaceCapsule_L : SpaceCapsule_P} loading='lazy' 
+                        className='terminology_img' alt={TERMINOLOGY[2].title}/>
                     </div>
                 </>
             }

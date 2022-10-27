@@ -34,7 +34,7 @@ export default function Crew() {
                       display:'inline',
                       paddingLeft:!tabletSize ? '5.5em' : '0',
                       position: !(tabletSize || mobileSize) ? "relative" : 'absolute',
-                      top: mobileSize ? "24em" : tabletSize ? "17em" : "0"
+                      top: mobileSize ? "25.5em" : tabletSize ? "17em" : "0"
 
                     }
                   }}>
@@ -47,14 +47,14 @@ export default function Crew() {
                                     <p>{member.about}</p>
                                 </div>
                                 <div className='crew_image_container'>
-                                    {member.id===1 && <img src='./image-douglas-hurley.png' alt='Doughlas' 
-                                    className='crew_image doughlas'/>}
-                                    {member.id===2 && <img src='./image-mark-shuttleworth.png' alt='Mark' 
-                                    className='crew_image mark_'/>}
-                                    {member.id===3 && <img src='./image-victor-glover.png' alt='Victor' 
-                                    className='crew_image victor'/>}
-                                    {member.id===4 && <img src='./image-anousheh-ansari.png' alt='Anousheh' 
-                                    className='crew_image anousheh'/>}
+                                    {member.id===1 && <img src={Douglas} alt='Doughlas' 
+                                    className='crew_image doughlas' loading='lazy'/>}
+                                    {member.id===2 && <img src={Mark} alt='Mark' 
+                                    className='crew_image mark_' loading='lazy'/>}
+                                    {member.id===3 && <img src={Victor} alt='Victor' 
+                                    className='crew_image victor' loading='lazy'/>}
+                                    {member.id===4 && <img src={Anousheh} alt='Anousheh' 
+                                    className='crew_image anousheh' loading='lazy'/>}
                                 </div>
                             </div>
                         );

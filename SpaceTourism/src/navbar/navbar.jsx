@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function NavigationBar() {
 
@@ -13,7 +13,9 @@ export default function NavigationBar() {
 
   return (
             <Navbar expand='sm' className="navigation">
-                    <img src='./assets/shared/logo.svg' alt='page logo' id='logo'/>
+                <Link to='/'>
+                    <img src='./assets/shared/logo.svg' alt='page logo' id='logo' loading='lazy'/>
+                </Link>
                     <hr className='horizontal-line'/>
     
                 <Navbar.Toggle aria-controls='offCanvasNavigation'>
