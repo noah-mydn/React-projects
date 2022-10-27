@@ -34,7 +34,7 @@ export default function Crew() {
                       display:'inline',
                       paddingLeft:!tabletSize ? '5.5em' : '0',
                       position: !(tabletSize || mobileSize) ? "relative" : 'absolute',
-                      top: mobileSize ? "27.5em" : tabletSize ? "17em" : "0"
+                      top: mobileSize ? "10em" : tabletSize ? "17em" : "0"
 
                     }
                   }}>
