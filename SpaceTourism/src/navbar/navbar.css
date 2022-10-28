@@ -64,7 +64,7 @@
     position: absolute;
   }
   
-  .nav-link:focus::after{
+  .nav-link:active::after{
     width: 80%;
   }
 
