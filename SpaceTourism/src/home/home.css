@@ -1,0 +1,157 @@
+.home {
+    min-height: 100vh;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    display: grid;
+    align-items: center;
+    grid-template-areas: "text button";
+    grid-template-columns: 1fr 1fr;
+    background: url('./desktopBg.jpg');
+    background-size: cover;
+}
+
+.intro-text {
+    padding-top: 9em;
+    grid-area: text;
+    width: 60%;
+    justify-self: center;;
+}
+
+.intro-text h4 {
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+    font-family:var(--smallText-font);
+    }
+
+.intro-text h1 {
+    font-size: 7.5em;
+    font-family: 'Bellefair';
+    color: white;
+    line-height: 1.5em;
+}
+
+.intro-text p {
+    color: #D0D6F9;
+
+}
+
+.explore-container {
+    grid-area: button;
+    justify-self: center;
+    position: relative;
+}
+
+.explore {
+    font-size: 2em;
+    padding: 2.3em 1.5em;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 1em;
+    left: -2em;
+    cursor:none;
+    border: none;
+}
+
+.explore:hover {
+    box-shadow: 0 0px 0px 1.5em rgba(121, 120, 120, 0.5);
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .intro-text {
+        width: 72%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) { 
+    .explore {
+        font-size: 1.8em;
+    }
+
+    .intro-text {
+        width: 100%;
+        padding-left: 2em;
+    }
+
+    .explore {
+        left: -2em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .home {
+        height: auto;
+        min-width: 357px;
+        min-height: 645px;
+        top:0;
+        grid-template-areas: "text text"
+                              "button button";
+        align-items: center;
+        background-image: url('./tabletBg.jpg');
+        background-position-y:50%;
+        background-repeat: no-repeat;
+    }
+
+    .intro-text {
+        padding-top: 1.2em;
+        width: 60%;
+        text-align: center;
+    }
+
+    .intro-text h4 {
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+
+    .intro-text h1 {
+        font-size: 6.5em;
+        line-height: 1.5em;
+       
+    }
+
+    .explore-container {
+        align-self: flex-start;
+        height: 100%;
+        margin-top: -5em;
+    }
+
+    .explore {
+        align-self: center;
+        font-size: 1.6em;
+        left: -3em;
+        top: 1em;
+        }
+
+        .explore:hover {
+            box-shadow: 0 0px 0px 1em rgba(121, 120, 120, 0.5);
+        }
+
+    
+}
+
+@media only screen and (max-width:576px) {
+    .intro-text {
+        padding-top: 0;
+        width: 85%;
+    }
+
+    .intro-text h4 {
+        font-size: 1.1em;
+    }
+
+    .intro-text h1 {
+        line-height: 1.5em;
+        padding-bottom: 0;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+    .explore {
+        top:1.5em;
+    }
+}
