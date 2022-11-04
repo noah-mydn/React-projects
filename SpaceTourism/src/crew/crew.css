@@ -7,7 +7,7 @@
     background: url('./desktopBg.jpg');
     background-position-y: center;
     background-size: cover;
-
+    
     
 }
 
@@ -249,7 +249,9 @@
 }
 
 @media only screen and (max-width:576px) {
-
+    .crew {
+        padding-bottom: 2em;
+    }
     
     .crew_title {
         text-align: center;

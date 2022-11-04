@@ -3,7 +3,9 @@
     position: absolute;
     top:0;
     z-index: -1;
-    height: 100vh;
+    height: max-content;
+    max-height:max-content;
+    padding-bottom: 2.55em;
 }
 
 .technology_title {
@@ -140,9 +142,6 @@
 }
 
 @media only screen and (max-width:800px) {
-    .technology {
-        height: auto;
-    }
 
     .terminology_container {
         display: grid;
