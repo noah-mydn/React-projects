@@ -1,7 +1,5 @@
 # Frontend Mentor - Space tourism website
 
-(JUST A README.md TEMPLATE, NOT AN EDITED VERSION)
-
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
 ## Table of contents
@@ -17,6 +15,8 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ## Overview
 
+Space Tourism multi pages designed using JavaScript library, React along with CSS Bootstrap Framework
+
 ### The challenge
 
 Users should be able to:
@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![./assets/space-tourism.png](./assets/space-tourism.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/noah-mydn/Space-Tourism](https://github.com/noah-mydn/Space-Tourism)
+- Live Site URL: [https://noah-space-tourism.netlify.app/](https://noah-space-tourism.netlify.app/)
 
 ### Built with
 
@@ -44,15 +44,17 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [https://github.com/Learus/react-material-ui-carousel](https://github.com/Learus/react-material-ui-carousel) - React Material UI Carousel that helped me design amazing crew member carousel inside my page
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [May Yadanar](https://noah-mydn.github.io/mayyadanar/)
+- Frontend Mentor - [@noah-mydn](https://www.frontendmentor.io/profile/noah-mydn)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Navigation [https://reactstrap.github.io/?path=/docs/components-offcanvas--offcanvas](https://reactstrap.github.io/?path=/docs/components-offcanvas--offcanvas)
+
+- Carousel [https://github.com/Learus/react-material-ui-carousel] (https://github.com/Learus/react-material-ui-carousel)
+
+- Navigation Multipages [https://github.com/remix-run/react-router#readme] (https://github.com/remix-run/react-router#readme)
