@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./assets/space-tourism.png](./assets/space-tourism.png)
+![./assets/shared/space-tourism.png](./assets/shared/space-tourism.png)
 
 ### Links
 
@@ -53,8 +53,8 @@ Users should be able to:
 
 ## Acknowledgments
 
-- Navigation [https://reactstrap.github.io/?path=/docs/components-offcanvas--offcanvas](https://reactstrap.github.io/?path=/docs/components-offcanvas--offcanvas)
+- Navigation [React-strap Offcanvas](https://reactstrap.github.io/?path=/docs/components-offcanvas--offcanvas)
 
-- Carousel [https://github.com/Learus/react-material-ui-carousel] (https://github.com/Learus/react-material-ui-carousel)
+- Carousel [Material UI Carousel](https://github.com/Learus/react-material-ui-carousel)
 
-- Navigation Multipages [https://github.com/remix-run/react-router#readme] (https://github.com/remix-run/react-router#readme)
+- Navigation Multipages [React-Router-Dom](https://github.com/remix-run/react-router#readme)
