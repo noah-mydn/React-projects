@@ -1,9 +1,9 @@
 import React from 'react'
 import './crew.css';
-import Douglas from './image-douglas-hurley.wepb';
-import Anousheh from './image-anousheh-ansari.wepb';
-import Mark from './image-mark-shuttleworth.wepb';
-import Victor from './image-victor-glover.wepb';
+import Douglas from './image-douglas-hurley.webp';
+import Anousheh from './image-anousheh-ansari.webp';
+import Mark from './image-mark-shuttleworth.webp';
+import Victor from './image-victor-glover.webp';
 import Crew_Members from './crew_members';
 import Carousel from 'react-material-ui-carousel';
 import { useMediaQuery } from 'react-responsive';
